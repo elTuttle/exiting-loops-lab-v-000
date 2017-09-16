@@ -9,3 +9,15 @@ function breakOut(array,changeValue,stopValue){
 
   return array
 }
+
+function keepGoing(array,changeValue,skipValue){
+  for(var i = 0; i < (array.length - 1); i ++){
+    if(array[i] === skip[Value){
+      continue;
+    }else{
+      array[i] = changeValue
+    }
+  }
+
+  return array
+}
