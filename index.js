@@ -26,8 +26,8 @@ function findby(array, findFn){
   for(var i = 0; i < (array.length); i ++){
     if(array[i] === findFn){
       return array;
-    }else{
-      array[i] = changeValue
     }
   }
+
+  return null
 }
