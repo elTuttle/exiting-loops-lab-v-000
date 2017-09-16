@@ -30,6 +30,6 @@ function findBy(array, findFn){
     }
   }
 
-  return value
+  return null
   
 }
