@@ -26,7 +26,7 @@ function findBy(array, findFn){
   var value = findFn
   for(var i = 0; i < (array.length); i ++){
     if(array[i] === findFn){
-      return `${array[i]}`
+      return value
     }
   }
 }
